@@ -1,68 +1,50 @@
 ~<!DOCTYPE html>
-<!-- Coding By CodingNepal - youtube.com/codingnepal -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Filterable Image Gallery | CodingNepal</title>
+    <title>Image Gallery</title>
+    <link rel="icon" href="" />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <div class="wrapper">
-      <!-- filter Items -->
+    <!-- hero section start -->
+    <div class="hero">
       <nav>
-        <div class="items">
-          <span class="item active" data-name="all">All</span>
-          <span class="item" data-name="bathroom">Bathroom</span>
-          <span class="item" data-name="walls">Walls</span>
-          <span class="item" data-name="tile">Tile</span>
-          <span class="item" data-name="sink">Sink</span>
-        </div>
+        <h2 class="logo">Portfo<span>lio</span></h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="Contact Us"></a></li>
+        </ul>
+        <a href="#" class="btn">Our Work</a>
       </nav>
-      <!-- filter Images -->
 
-      <div class="gallery">
-        <div class="image" data-name="sink">
-          <span><img src="images/Rakavina.jpeg" alt="" /></span>
-        </div>
-        <div class="image" data-name="walls">
-          <span><img src="images/devorChap.jpeg" alt="" /></span>
-        </div>
-        <div class="image" data-name="walls">
-          <span><img src="images/DevorOng.jpeg" alt="" /></span>
-        </div>
-        <div class="image" data-name="bathroom">
-          <span><img src="images/VannaChapdan.jpeg" alt="" /></span>
-        </div>
-        <div class="image" data-name="tile">
-          <span><img src="images/VannaKafel.jpeg" alt="" /></span>
-        </div>
-        <div class="image" data-name="sink">
-          <span><img src="images/VannaKran.jpeg" alt="" /></span>
-        </div>
-        <div class="image" data-name="bathroom">
-          <span><img src="images/vannaOldidan.jpeg" alt="" /></span>
-        </div>
-        <div class="image" data-name="tile">
-          <span><img src="images/VannaToliqKafel.jpeg" alt="" /></span>
+      <div class="continent">
+        <h4>Hello, my name is</h4>
+        <h1>Shukhratbek Ganiev</h1>
+        <h3>I am a master</h3>
+        <div class="newslatter">
+          <form action="">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+            />
+            <input type="submit" name="submit" value="Let's start~" />
+          </form>
         </div>
       </div>
     </div>
-
-    <!-- fullscreen img preview box -->
-    <div class="preview-box">
-      <div class="details">
-        <span class="title"
-          >Image Category:
-          <p></p
-        ></span>
-        <span class="icon fas fa-times"></span>
-      </div>
-      <div class="image-box"><img src="" alt="" /></div>
-    </div>
-    <div class="shadow"></div>
-
-    <script src="script.js"></script>
   </body>
 </html>
