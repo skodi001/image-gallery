@@ -181,3 +181,7 @@ img {
   height: 250px;
   border-radius: 20%;
 }
+
+body {
+  background-color: aquamarine;
+}
