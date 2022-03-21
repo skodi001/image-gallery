@@ -215,6 +215,12 @@
                 <div class="column right">
                     <div class="text">Напишите</div>
                     <form action="https://formsubmit.co/sh.ganiev1976@gmail.com" method="POST">
+                        <!-- Honeypot -->
+                        <input type="text" name="_honey" style="display: none;">
+
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://skodi001.github.io/image-gallery/shukhratbek.html">
+
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Имя" required>
@@ -224,8 +230,12 @@
                             </div>
                         </div>
                         <div class="field">
+                            <input type="tel" placeholder="Телефон номер (+998 91 123 45 67)" required>
+                        </div>
+                        <div class="field">
                             <input type="text" placeholder="Тема" required>
                         </div>
+
                         <div class="field textarea">
                             <textarea cols="30" rows="10" placeholder="Сообщение..." required></textarea>
                         </div>
