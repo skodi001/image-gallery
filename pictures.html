@@ -1,92 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image gallery</title>
-    <link rel="stylesheet" href="picturesStyles.css" />
-    <link rel="icon" href="images/favicon.ico" />
+    <title>Image Gallery - Shukhratbek Ganiev</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <!-- filter Items -->
-      <nav>
-        <div class="items">
-          <span class="item active" data-name="all">My Work</span>
-          <span class="item" data-name="bathroom">Bathroom</span>
-          <span class="item" data-name="walls">Walls</span>
-          <span class="item" data-name="tile">Tile</span>
-          <span class="item" data-name="sink">Sink</span>
+    <section class="gallery min-vh-100">
+      <h1>My Photo / Work Gallery</h1>
+      <div class="container-lg">
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+          <div class="col">
+            <img
+              src="img/background-1.jpg"
+              class="gallery-item"
+              alt="gallery"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="img/background-2.jpg"
+              class="gallery-item"
+              alt="gallery"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="img/background-3.jpg"
+              class="gallery-item"
+              alt="gallery"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="img/background-4.jpg"
+              class="gallery-item"
+              alt="gallery"
+            />
+          </div>
+          <div class="col">
+            <img src="img/bathroom.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/bathroom2.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/bathroom3.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image1.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image2.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image3.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image4.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image5.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image6.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image7.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image8.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image9.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image10.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image11.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image12.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image13.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image14.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image15.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image16.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image17.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image18.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image19.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image20.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image21.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image1.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image22.jpeg" class="gallery-item" alt="gallery" />
+          </div>
+          <div class="col">
+            <img src="img/image23.jpeg" class="gallery-item" alt="gallery" />
+          </div>
         </div>
-      </nav>
-      <!-- filter Images -->
+      </div>
+    </section>
 
-      <div class="gallery">
-        <div class="image" data-name="bathroom">
-          <span><img src="images/vannaOldidan.jpeg" alt="" /></span>
-        </div>
-        <div class="image" data-name="bathroom">
-          <span><img src="images/1.jpg" alt="" /></span>
-        </div>
-        <div class="image" data-name="bathroom">
-          <span><img src="images/3.jpg" alt="" /></span>
-        </div>
-        <div class="image" data-name="bathroom">
-          <span><img src="images/6.jpg" alt="" /></span>
-        </div>
-        <div class="image" data-name="bathroom">
-          <span><img src="images/7.jpg" alt="" /></span>
-        </div>
-        <div class="image" data-name="bathroom">
-          <span><img src="images/background-1.jpg" alt="" /></span>
-        </div>
-        <div class="image" data-name="bathroom">
-          <span><img src="images/background-2.jpg" alt="" /></span>
-        </div>
-        <div class="image" data-name="bathroom">
-          <span><img src="images/background-3.jpg" alt="" /></span>
-        </div>
-        <div class="image" data-name="bathroom">
-          <span><img src="images/background-4.jpg" alt="" /></span>
-        </div>
-        <div class="image" data-name="bathroom">
-          <span><img src="images/electricity.jpg" alt="" /></span>
-        </div>
-        <div class="image" data-name="tile">
-          <span><img src="images/VannaKafel.jpeg" alt="" /></span>
-        </div>
-        <div class="image" data-name="sink">
-          <span><img src="images/Rakavina.jpeg" alt="" /></span>
-        </div>
-        <div class="image" data-name="walls">
-          <span><img src="images/DevorOng.jpeg" alt="" /></span>
-        </div>
-        <div class="image" data-name="walls">
-          <span><img src="images/devorChap.jpeg" alt="" /></span>
-        </div>
-        <div class="image" data-name="bathroom">
-          <span><img src="images/VannaChapdan.jpeg" alt="" /></span>
-        </div>
-        <div class="image" data-name="tile">
-          <span><img src="images/VannaToliqKafel.jpeg" alt="" /></span>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="gallery-modal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/1.jpg" class="modal-img" alt="modal img" />
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- fullscreen img preview box -->
-    <div class="preview-box">
-      <div class="details">
-        <span class="title"
-          >Image Category:
-          <p></p
-        ></span>
-        <span class="icon fas fa-times"></span>
-      </div>
-      <div class="image-box"><img src="" alt="" /></div>
-    </div>
-    <div class="shadow"></div>
-
-    <script src="script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
