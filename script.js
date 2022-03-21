@@ -32,11 +32,11 @@ $(document).ready(function () {
   // typing text animation script
   var typed = new Typed(".typing", {
     strings: [
-      "Tiler",
-      "Electrician",
-      "Repair Clerk",
-      "Plumber",
-      "Turnkeyer the Apartments",
+      "Плиточник",
+      "Электрик",
+      "Отдельщик",
+      "Сантехник",
+      "сделаю Квартиры под ключ",
     ],
     typeSpeed: 100,
     backSpeed: 60,
@@ -44,11 +44,11 @@ $(document).ready(function () {
   });
   var typed = new Typed(".typing-2", {
     strings: [
-      "Tiler",
-      "Electrician",
-      "Repair Clerk",
-      "Plumber",
-      "Turnkeyer the Apartments",
+      "Плиточник",
+      "Электрик",
+      "Отдельщик",
+      "Сантехник",
+      "сделаю Квартиры под ключ",
     ],
     typeSpeed: 100,
     backSpeed: 60,
